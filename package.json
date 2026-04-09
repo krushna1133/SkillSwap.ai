@@ -1,0 +1,37 @@
+{
+  "name": "skillswap.ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "evaluator": "node scripts/evaluator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krushna1133/SkillSwap.ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krushna1133/SkillSwap.ai/issues"
+  },
+  "homepage": "https://github.com/krushna1133/SkillSwap.ai#readme",
+  "dependencies": {
+    "next": "^16.2.3",
+    "openai": "^6.34.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2"
+  }
+}
