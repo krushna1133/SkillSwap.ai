@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "evaluator": "node scripts/evaluator.js"
+    "evaluator": "node scripts/evaluator.js",
+    "matcher": "node scripts/matcher.js"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,11 @@
     "next": "^16.2.3",
     "openai": "^6.34.0",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "socket.io-client": "^4.8.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
     "autoprefixer": "^10.4.27",
     "postcss": "^8.5.9",
     "tailwindcss": "^4.2.2"

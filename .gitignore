@@ -14,3 +14,8 @@ pnpm-debug.log*
 .env
 .env.local
 .env.*.local
+
+# python
+__pycache__/
+*.pyc
+.venv/
